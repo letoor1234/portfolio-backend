@@ -1,0 +1,19 @@
+
+<body>
+    <p><b>Nuevo Mail De:</b></p>
+    <p><%= mail.name %></p>
+    <p><b>Email:</b> </p>
+    <p>
+        <a href="mailto:<%= mail.email %>"><%= mail.email %></a>
+    </p>
+    <p>
+        <b>Teléfono:</b>
+    </p>
+    <p>
+         <b><%= mail.phone %>
+    </p>
+    <p><b>Mensaje:</b></p>
+    <p>
+        <%= mail.description %>
+    </p>
+</body>
